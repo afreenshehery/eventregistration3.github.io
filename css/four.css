@@ -1,0 +1,19 @@
+
+body{
+    background:url(../images/pexels-naim-benjelloun-2610756.jpg)no-repeat center ;
+    background-size: cover;
+
+}
+button{
+    font-size: 30px;
+    border: solid 6px black;
+    border-radius: 9px;
+    background-color: transparent;
+    
+    margin-top: 400px;
+    margin-left: 200px;
+   
+}
+
+    
+        

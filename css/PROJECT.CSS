@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: url(../images/wive%20point.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.button{
+    background-color: transparent;
+    outline: none;
+    border:solid 3px #e0aa3e;
+    border-radius: 10px;
+    width: 260px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 400px;
+    margin-right:300px;
+    
+
+}
+.button span{0
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 2em;
+    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:red;
+    filter: hue-rotate(0deg);
+    font-family: 'Abril Fatface', cursive;
+    
+}
+.button:hover{
+    background-color: black;
+    border: none;
+}
+.button:hover span{
+    animation: animate_button 1s linear infinite;
+}
+@keyframes animate_button {
+    0%{
+        color: transparent;
+        background: linear-gradient(0deg, transparent, #e0aa3e);
+        -webkit-background-clip: text;
+        filter: hue-rotate(0deg);
+    }
+    50%,
+    100%{
+        color: transparent;
+        background: linear-gradient(359deg, transparent, #e0aa3e);
+        -webkit-background-clip: text;
+        filter: hue-rotate(300deg);
+    }
+}
+.button:hover div{
+    position: absolute;
+    z-index: 2;
+}
+.button:hover div:nth-child(2){
+    width: 100%;
+    height: 5px;
+    top: 0;
+    left: 0;
+    filter: hue-rotate(0deg);
+    background: linear-gradient(90deg, transparent, #e0aa3e);
+    animation: animate_border_1 1s linear infinite;
+}
+@keyframes animate_border_1 {
+    0%{
+        left: -100%;
+    }
+    50%,
+    100%{
+        left: 100%;
+    }
+}
+
+.button:hover div:nth-child(3){
+    width: 5px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+    filter: hue-rotate(60deg);
+    background: linear-gradient(180deg, transparent, #e0aa3e);
+    animation: animate_border_2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate_border_2 {
+    0%{
+        top: -100%;
+    }
+    50%,
+    100%{
+        top: 100%;
+    }
+}
+
+.button:hover div:nth-child(4){
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    right: -100%;
+    filter: hue-rotate(120deg);
+    background: linear-gradient(270deg, transparent, #e0aa3e);
+    animation: animate_border_3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate_border_3 {
+    0%{
+        right: -100%;
+    }
+    50%,
+    100%{
+        right: 100%;
+    }
+}
+
+
+.button:hover div:nth-child(5){
+    width: 5px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+    filter: hue-rotate(300deg);
+    background: linear-gradient(360deg, transparent, #e0aa3e);
+    animation: animate_border_4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate_border_4 {
+    0%{
+        bottom: -100%;
+    }
+    50%,
+    100%{
+        bottom: 100%;
+    }
+}
+
+
+/*
+.div{
+----------------------------------------------------------------------------------------------------------------------------------}*/
+
+
+
+.button1{
+    background-color: transparent;
+    outline: none;
+    border:solid 3px #e0aa3e;
+    border-radius: 10px;
+    width: 260px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 400px;
+    margin-left:300px;
+
+}
+.button1 span{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:red;
+    filter: hue-rotate(0deg);
+   font-family: 'Abril Fatface', cursive;
+}
+.button1:hover{
+    background-color:black;
+    border: none;
+}
+.button1:hover span{
+    animation: animate_button 1s linear infinite;
+}
+@keyframes animate_button {
+    0%{
+        color: transparent;
+        background: linear-gradient(0deg, transparent, #e0aa3e);
+        -webkit-background-clip: text;
+        filter: hue-rotate(0deg);
+    }
+    50%,
+    100%{
+        color: transparent;
+        background: linear-gradient(359deg, transparent, #e0aa3e);
+        -webkit-background-clip: text;
+        filter: hue-rotate(300deg);
+    }
+}
+.button1:hover div{
+    position: absolute;
+    z-index: 2;
+}
+.button1:hover div:nth-child(2){
+    width: 100%;
+    height: 5px;
+    top: 0;
+    left: 0;
+    filter: hue-rotate(0deg);
+    background: linear-gradient(90deg, transparent, #e0aa3e);
+    animation: animate_border_1 1s linear infinite;
+}
+@keyframes animate_border_1 {
+    0%{
+        left: -100%;
+    }
+    50%,
+    100%{
+        left: 100%;
+    }
+}
+
+.button1:hover div:nth-child(3){
+    width: 5px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+    filter: hue-rotate(60deg);
+    background: linear-gradient(180deg, transparent, #e0aa3e);
+    animation: animate_border_2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate_border_2 {
+    0%{
+        top: -100%;
+    }
+    50%,
+    100%{
+        top: 100%;
+    }
+}
+
+.button1:hover div:nth-child(4){
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    right: -100%;
+    filter: hue-rotate(120deg);
+    background: linear-gradient(270deg, transparent, #e0aa3e);
+    animation: animate_border_3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate_border_3 {
+    0%{
+        right: -100%;
+    }
+    50%,
+    100%{
+        right: 100%;
+    }
+}
+
+
+.button1:hover div:nth-child(5){
+    width: 5px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+    filter: hue-rotate(300deg);
+    background: linear-gradient(360deg, transparent, #e0aa3e);
+    animation: animate_border_4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate_border_4 {
+    0%{
+        bottom: -100%;
+    }
+    50%,
+    100%{
+        bottom: 100%;
+    }
+}
+
+/*.sll{----------------------------------------------------------------------------------------------------------------------------}* 
+   
+
+
+
